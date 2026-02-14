@@ -1,0 +1,14 @@
+/* Reduce bottom padding inside callouts */
+.callout {
+    padding-bottom: 0em !important;
+}
+
+/* Reduce left margin for dataview lists in callouts */
+.callout .dataview.list-view-ul {
+    margin-left: -1em !important;
+}
+
+/* Reduce margin between title and body */
+.callout .callout-content .dataview.list-view-ul {
+    margin-top: 0.5em !important;
+}

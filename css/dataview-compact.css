@@ -1,0 +1,5 @@
+/* Shrinks the first column of a dataview table to the minimum width with no line breaks */
+.dataview td:first-child {
+    width: 1%;
+    white-space: nowrap;
+}

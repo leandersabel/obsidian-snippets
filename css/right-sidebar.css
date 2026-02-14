@@ -1,0 +1,12 @@
+/* Cleanup the display of tabs in the right sidebar */
+
+
+/* Hide titles in right sidebar */
+.workspace-split.mod-right-split .inline-title {
+    display: none !important;
+}
+
+/* Hide pinned tab icons in right sidebar */
+.workspace-split.mod-right-split .workspace-tab-header-inner .mod-pinned {
+    display: none !important;
+}
